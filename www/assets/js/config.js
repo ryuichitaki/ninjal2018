@@ -1,6 +1,6 @@
 
 
-waldayu.transducers["kagoshima japanese_compare"] = (function() {
+waldayu.transducers["gitksan_compare"] = (function() {
     var correspondences = {'tsu': 'tu', 'shi': 'si', 'chi': 'ti'};
     var keys = ['tsu', 'shi', 'chi'];
     var regex = new RegExp("(" + keys.join('|') + ")", 'g');
@@ -11,10 +11,10 @@ waldayu.transducers["kagoshima japanese_compare"] = (function() {
     };
 })();var config = {
     "L1": {
-        "name": "Kagoshima Japanese",
+        "name": "Gitksan",
         "underlying": "",
-        "compare": "kagoshima japanese_compare",
-        "lettersInLanguage" : ['a', 'aa', 'b', 'd', 'e', 'ee', 'g', 'g̲', 'gw', 'gy', 'h', 'hl', 'i', 'ii', 'j', 'k', 'k̲', "k'", "k̲'", 'kw', "kw'", 'ky', "ky'", 'l', "'l", 'm', "'m", 'n', "'n", 'o', 'oo', 'p', "p'", 's', 't', "t'", 'ts', "ts'", 'u', 'uu', 'w', "'w", 'x', 'x̲', 'xw', 'y', "'y", "'"]
+        "compare": "gitksan_compare",
+        "lettersInLanguage" : ['a', 'i', 'u', 'e', 'o', 'k', 'g', 's', 'z', 't', 'd', 'n', 'h', 'b', 'p', 'm', 'y', "r'", 'w', 'N']
     },
     "L2": {
         "name": "English",
