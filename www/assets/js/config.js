@@ -14,7 +14,7 @@ waldayu.transducers["gitksan_compare"] = (function() {
         "name": "Gitksan",
         "underlying": "",
         "compare": "gitksan_compare",
-        "lettersInLanguage" : ['a', 'i', 'u', 'e', 'o', 'k', 'g', 's', 'z', 't', 'd', 'n', 'h', 'b', 'p', 'm', 'y', "r'", 'w', 'N']
+        "lettersInLanguage" : ['a', 'i', 'u', 'e', 'o', 'k', 'g', 's', 'z', 't', 'd', 'n', 'h', 'b', 'p', 'm', 'y', 'r', 'w', 'N']
     },
     "L2": {
         "name": "English",
